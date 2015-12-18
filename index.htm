@@ -1,0 +1,360 @@
+<!DOCTYPE HTML>
+<!--
+	Strongly Typed 1.1 by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Welcome to Zexuan's Website</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="keywords" content="Zexuan Wang, Ze Xuan Wang, Ze Wang, Aaron Wang, Table tennis, software, Resume, University of Toronto, Engineering Science, Engsci, ECE, Computer Engineering, Canada, Ontario, Toronto">
+		<meta name="description" content="Personal website of Zexuan (Aaron) Wang">
+        <meta name="author" content="Zexuan Wang">
+        <meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+        
+		<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600|Arvo:700" rel="stylesheet" type="text/css" />
+		<!-- noscript -->		
+			<!-- HTML5UP styles -->
+			<!--link rel="stylesheet" href="./css/skel-noscript.css" />
+			<link rel="stylesheet" href="./css/style-desktop.css" />
+        	<link rel="stylesheet" href="./css/style-gallery.css" /-->
+			<!-- Boostrap, jQuery & jQueryUI -->
+			<link rel="stylesheet" href="./css/style.css" />
+			<link href="./css/bootstrap.css" rel="stylesheet" type="text/css" />
+			<link href="./css/bootstrap-theme.css" rel="stylesheet" type="text/css" />
+			<link rel="stylesheet" href="./css/style_custom.css" />
+		<!-- /noscript -->
+
+
+		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->	 
+		<!-- Boostrap, jQuery & jQueryUI -->
+		<script src="./js/jquery.min.js"></script>
+		<!--script src="./js/jquery.dropotron.min.js"></script-->
+		<script src="./js/bootstrap.js" ></script>
+		<!-- HTML5UP styles -->
+		<!--script src="./js/config.js"></script>
+		<script src="./js/skel.min.js"></script>
+		<script src="./js/skel-panels.min.js"></script>	
+        <script src="./js/gallery.js"></script-->	
+
+
+        <!-- used for mobile split-panel layout -->
+        <script type='text/javascript'>
+        	$(function() {
+        		if($(window).width() > 767)		// non-mobile devices
+        		{
+        		   $('.dropdown-toggle').click(function() {
+        		       var location = $(this).attr('href');
+        		       window.location.href = location;
+        		       return false;
+        		   });
+        		}
+
+        		$("#sendMsg").click(function(){
+        			var mailContent="mailto:zexuan.wang@mail.utoronto.ca?subject=";
+        			mailContent+=$('#mailSubject').val();
+        			mailContent+="&body=";
+        			mailContent+=encodeURIComponent($('#mailBody').val());
+        			mailContent+="%0D%0A%0D%0A%0D%0A";
+        			mailContent+="From  ";
+					mailContent+=$('#mailSender').val();
+        			window.location.href = (mailContent);
+       			 });
+   			 }); 
+        </script>
+        <script type='text/javascript'>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-55430320-1', 'auto');
+          ga('send', 'pageview');
+          ga(‘set’, ‘&uid’, {{USER_ID}}); // Set the user ID using signed-in user_id.
+
+        </script>
+
+		
+	</head>
+    
+    
+    
+	<body class="homepage">
+
+
+		<nav class="navbar navbar-inverse navbar navbar-fixed-top" role="navigation">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" 
+				         data-target="#main_menu">
+			         <span class="sr-only">mobile_menu</span>
+			         <span class="icon-bar"></span>
+			         <span class="icon-bar"></span>
+			         <span class="icon-bar"></span>
+			    </button>
+		   		<a class="navbar-brand active menu_link" href="index.htm">Home</a>
+		   	</div>
+
+		   <div class="collapse navbar-collapse" id="main_menu">
+		   <ul class="nav navbar-nav">
+		         <li class="dropdown">
+			         	<a href="about_me.htm" class="dropdown-toggle menu_link" data-toggle="dropdown">
+			               About Me 
+			               <b class="caret"></b>
+			            </a>
+			            <ul class="dropdown-menu">
+			               <li><a class="menu_link" href="about_me.htm#namecard-full">My Namecard</a></li>
+			               <li><a class="menu_link" href="about_me.htm#gallery">Gallery</a></li>
+			            </ul>
+			     </li>
+		         <li class="dropdown">
+		         		<a href="software.htm" class="dropdown-toggle menu_link" data-toggle="dropdown">
+			               Software 
+			               <b class="caret"></b>
+			            </a>
+			            <ul class="dropdown-menu">
+			               <li><a class="menu_link" href="software.htm#skills">Skills Summary</a></li>
+			               <li><a class="menu_link" href="software.htm#ecc">Projects--ECC Website</a></li>
+			               <li><a class="menu_link" href="software.htm#typing_speed">Projects--Typing Speed Competition</a></li>
+			               <li><a class="menu_link" href="software.htm#tdsb">Projects--TDSB Badminton League</a></li>
+			               <li><a class="menu_link" href="software.htm#connect_of_five">Projects--Connect of Five</a></li>
+			               <li><a class="menu_link" href="software.htm#online_chat">Projects--Online Chat</a></li>
+			               <li><a class="menu_link" href="software.htm#game_of_24">Projects--Game of 24</a></li>
+			            </ul>
+			     </li>
+		         <!--li class="dropdown">
+			            <a href="hardware.htm" class="dropdown-toggle menu_link" data-toggle="dropdown">
+			               Hardware 
+			               <b class="caret"></b>
+			            </a>
+			            <ul class="dropdown-menu">
+			               <li><a class="menu_link" href="hardware.htm#background">Background</a></li>
+			               <li><a class="menu_link" href="hardware.htm#skills">Skills Summary</a></li>
+			               <li><a class="menu_link" href="hardware.htm#projects">Past Projects</a></li>
+			            </ul>
+		         </li-->
+		         <li class="dropdown">
+			            <a href="tt_life.htm" class="dropdown-toggle menu_link" data-toggle="dropdown">
+			               Table Tennis 
+			               <b class="caret"></b>
+			            </a>
+			            <ul class="dropdown-menu">
+			               <li><a class="menu_link" href="tt_life.htm#namecard-full">Highlights</a></li>
+			               <li><a class="menu_link" href="tt_life.htm#gallery">Videos</a></li>
+			            </ul>
+		         </li>
+		         <li>
+		         		<a href="contact_me.htm" class="menu_link">Contact Me</a>
+		         </li>
+		         <li>
+		         		<a href="./files/resume.pdf" class="menu_link">My Resume</a>
+		         </li>
+		    </ul>
+		    </div>
+		</nav>
+
+        
+
+        <div class="background">
+        <div class="transbox">
+        
+			<!-- Header Wrapper -->
+			<div id="header-wrapper" class="container-fluid col-md-12">
+				<div id="header-pic" class="container col-md-4 col-sm-5 col-xs-12 vert-center">
+					<img id="header-pic-img" src="./personal_img/about_me.jpg" alt="" />
+				</div>
+				<div id="header-text" class="container col-md-8 col-sm-7 col-xs-12">
+					<h1>Hi, I am <strong>Zexuan (Aaron) Wang</strong>.</h1>
+					<h3>A fourth year Computer Engineering student.</h3>
+					<h4>String[ ] keywords={"Math", "Java", "C/C++", "Python", "HTML/CSS/Javascript/PHP", "Table tennis"}</h4>
+					<a href="#about_me" class="button-pagenav button-big">Learn more about me</a>
+				</div>
+			</div>
+			
+			<!-- Features Wrapper -->
+			<div id="features-wrapper" class="container-fluid col-md-12">
+				<div id="about_me" class="container col-md-12 top-margin">
+					<h1>About Me</h1>
+					<div id="namecard" class="container col-md-12">
+						<div class="container col-md-12 col-xs-12">
+							<ul id="namecard_list" style="list-style-type: none;">
+								<br/>
+								<li><span class="header-tag">Name:</span> Zexuan (Aaron) Wang </li>
+								<li><span class="header-tag">Education:</span> 4th year student at University of Toronto </li>
+								<li><span class="header-tag">Date of Birth:</span> Jun. 8th, 1993 (Age 22) </li>
+								<li><span class="header-tag">Hobbies:</span> Table tennis, badminton, reading, violin, all types of sports and coding </li>
+								<li><span class="header-tag">Name origin:</span> Most people cannot prounce my Chinese name so I chose the first name in the dictionary </li>
+								<li><span class="header-tag">Skills:</span> Java, C/C++, Python, HTML/CSS/Javascript/PHP, Mysql </li>
+								<li><span class="header-tag">My Resume:</span> <a href="./files/resume.pdf">my_resume.pdf</a> </li>
+								<br/><li><a href="about_me.htm">Continue to read more...</a> </li>
+								
+							</ul>
+						</div>
+						<!--div class="container col-md-4 col-xs-4">
+							<a href="about_me.htm" class="image image-full"><img src="./personal_img/about_me.jpg" alt="" /></a>
+						</div-->
+					</div>
+					<a href="#software" class="button-pagenav button-big text-center" >Check out my past projects</a>
+				</div>
+
+
+
+
+
+
+
+				<div id ="software" class="container col-md-12 top-margin">
+					<h1>My Past Projects</h1>
+					<div class="col-md-4 col-sm-6 col-xs-12 box-container">
+						<article class="box box-style2">
+							<a href="" class="image image-full"><img src="./personal_img/projects/pic_ecc.png" alt="" /></a>
+							<h3><a href="http://ecc.skule.ca">Engineering Chinese Club website</a></h3>
+							<p>A website made for the club completely from scratch with another student</p>
+							<a href="about_me.htm">Continue to read more...</a> 
+						</article>
+					</div>
+					<div class="col-md-4 col-sm-6 col-xs-12 box-container">
+						<article class="box box-style2">
+							<a href="" class="image image-full"><img src="./personal_img/projects/pic_typing_speed_competition.png" alt="" /></a>
+							<h3><a href="">Typing Speed Competition</a></h3>
+							<p>A simple Javascript-based application that measures one’s typing speed and compete with other users</p>
+							<a href="about_me.htm">Continue to read more...</a> 
+						</article>
+					</div>
+					<div class="col-md-4 col-sm-6 col-xs-12 box-container">
+						<article class="box box-style2">
+							<a href="" class="image image-full"><img src="./personal_img/projects/pic_badminton2.png" alt="" /></a>
+							<h3><a href="">TDSB Badminton Score Management System</a></h3>
+							<p>A website designed for TDSB Badminton League to keep track of scores and individual teams/players</p>
+							<a href="about_me.htm">Continue to read more...</a>
+						</article>
+					</div>
+					<!-- SECOND ROW OF PROJECTS -->
+					<div class="col-md-4 col-sm-6 col-xs-12 box-container">
+						<article class="box box-style2">
+							<a href="" class="image image-full"><img src="./personal_img/projects/pic_connect_of_five.png" alt="" /></a>
+							<h3><a href="http://ecc.skule.ca">Connect of Five Chess Game</a></h3>
+							<p>Desktop Java application of the Connect of Five chess game with an attempt of AI 
+implementation</p>
+							<a href="about_me.htm">Continue to read more...</a> 
+						</article>
+					</div>
+					<div class="col-md-4 col-sm-6 col-xs-12 box-container">
+						<article class="box box-style2">
+							<a href="" class="image image-full"><img src="./personal_img/projects/pic_online_chat.png" alt="" /></a>
+							<h3><a href="">Online Chatting Website</a></h3>
+							<p>Instant messaging with other communication between two 
+registered users</p>
+							<a href="about_me.htm">Continue to read more...</a> 
+						</article>
+					</div>
+					<div class="col-md-4 col-sm-6 col-xs-12 box-container">
+						<article class="box box-style2">
+							<a href="" class="image image-full"><img src="./personal_img/projects/pic_game_of_24.png" alt="" /></a>
+							<h3><a href="">Game of 24</a></h3>
+							<p>Card game of 24 that not only evaluates an input expression but also calculates 
+the correct answer</p>
+							<a href="about_me.htm">Continue to read more...</a>
+						</article>
+					</div>
+					<div class="col-md-12" style="margin-top:1em;"><a href="#tabletennis" class="button-pagenav button-big text-center" >Check out my table tennis career</a></div>
+				</div>
+
+
+
+
+
+
+
+				<div id="tabletennis" class="container col-md-12 top-margin">
+					<h1>Table Tennis</h1>
+					<div class="container col-md-6">
+						<a href="tt_life.htm" class="image image-full"><img src="./personal_img/tt_life.jpg" alt="" /></a>
+					</div>	
+					<div class="container col-md-6">
+					<div id="tt_intro" class="container col-md-12">
+						I first started table tennis training when I was six years old and continued systematic trainings since then. I was a senior Canadian national team player (2011-2013 as shown <a href="hhttp://www.ttcan.ca/upload/story/doc/National%20Team/Squad%20List/2013JAN%20NTSquad%20List.pdf">here </a>) and currently ranking No.9 in Canada (<a href="http://ttcan.ca/en/home/rating.aspx">here</a>) with top 1000 worldwide (<a href="http://www.ittfranking.com/cgi-bin/ttplayer.cgi?number=117613&lang=0&format=detailed4">here</a>).<br/>
+						<br/><a href="tt_life.htm">Continue to read more...</a> </li>
+						<br/><br/><br/>
+					</div>
+						<a href="#footer" class="button-pagenav button-big text-center" >Contact me!</a>
+					</div>				
+				</div>
+			
+			</div>
+		
+
+
+		<!-- Footer Wrapper -->
+			<div id="footer-wrapper" class="container col-md-12">
+
+				<!-- Footer -->
+					<div id="footer" class="container col-md-12">
+						<header>
+							<h2>Want to hire me? <strong>Get in touch!</strong></h2><br/>
+						</header>
+						<div class="row">
+							<div class="container col-md-7">
+								<section>
+									<form method="post" action="#">
+										<!--div class="row half"-->	
+											<div class="container col-md-6 col-xs-12">
+												<input id="mailSender" name="sender" placeholder="Name" type="Name" class="text" /><br/>
+											</div>
+											<div class="container col-md-6 col-xs-12">
+												<input id="email" name="email" placeholder="Email" type="Email" class="text" /><br/>
+											</div>
+
+
+											<div class="col-md-12">
+												<input id="mailSubject" name="subject" placeholder="Subject" type="text" class="text" /><br/>
+											</div>
+											<div class="col-md-12">
+												<textarea id="mailBody" name="message" placeholder="Message"></textarea>
+											</div>
+									</form>
+								</section>
+								<div class="container col-md-12 center">
+									<br/>
+									<a name="sendMsg" id="sendMsg" class="button button-icon form-button-submit fa fa-envelope">Send Message</a>
+									<a href="#" id="clearForm" class="button button-icon form-button-reset">Clear Form</a>
+								</div>
+								<br/>
+								<br/>
+							</div>
+
+							<div class="col-md-5 container contact_info">
+								<!--section>
+								<ul class="col-md-6 container"-->
+									<a href="tel:647-459-8073"><span class="fa fa-phone icon-social"></span><span class="vert-center">(647) 459-8073</span></a><br/>
+									
+									<a href="mailto:zexuan.wang@mail.utoronto.ca"><span class="fa fa-envelope icon-social"></span><span class="vert-center">zexuan.wang@mail.utoronto.ca</span></a><br/>
+									
+									<span class="fa fa-skype icon-social"></span><span class="vert-center">Skype: tabletenniser</span><br/>
+									
+								<!--/ul>
+								<ul class="col-md-6 container"-->
+									<a href="http://ca.linkedin.com/pub/zexuan-wang/45/a27/8"><span class="fa fa-linkedin icon-social"></span><span class="vert-center">ca.linkedin.com/pub/dir/Zexuan/Wang</span></a><br/>
+									
+									<a href="https://www.facebook.com/aaron.wang.902"><span class="fa fa-facebook icon-social"></span><span class="vert-center">facebook.com/aaron.wang.902</span></a><br/>
+									
+								<!--/ul>
+								</section-->
+							</div>
+						</div>
+					</div>
+
+				<!-- Copyright -->
+					<div id="copyright" class="col-md-12 container">
+						<ul class="links">
+							<li>Copyright &copy; 2015 Zexuan (Aaron) Wang. All rights reserved</li>
+						</ul>
+					</div>
+
+			</div>
+
+    </div>
+    </div>
+	</body>
+</html>

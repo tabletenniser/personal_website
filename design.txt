@@ -1,0 +1,85 @@
+bugs to fix:
+1. update content for software.htm
+8. left and right buttons for gallery.js doesn’t match each other
+
+LATER:
+4. table tennis videos
+7. fix left and top menu bars for desktop & tablets
+
+
+
+
+personal based:
+1. index.html:
+	DONE: profile_pic,  about_me(read_more hyperlink to about_me.html), intro to each session with hyperlinks, four pictures for each section with 2*2 normally and 4*1 for mobile, photo gallery proper resize to 540*480 for all images, move left/right icons 
+	REQUIRE: actualPicsDisplayedUsingJavascript, font & background colour, contact information send email with subject and content, format for the contact information page
+
+2. about_me.html (links_to_each_session_in_the_top):
+	DONE: background_info/timeline; 
+	REQUIRE: resume; pic_gallaries;
+
+3. software.html():
+	REQUIRE: fix typing test+proof read and get key points with as many links as possible
+
+	DONE: intro: 
+		This section provides a brief summary on my programming background. In particular, it contains a list of past learning experience both in school and by myself, an up-to-date summary of related skills and a list of all past programming projects.
+	DONE: timeline:
+		-Sept, 2008: first started programming using Visual Basic by myself as a personal interest
+		-Sept, 2009: took Gr10 computer science in Turing focusing on basic programming structures like loops and 
+		-Apr, 2010: took Gr11 computer science in Java focusing on OOP
+		-Sept, 2010: took Gr12 computer science in Java focusing on simple algorithms like recursion, sorting and searching
+		-Sept, 2011: took first year advanced comp sci course (CSC192) in C focusing on programming efficiency and data structures linke queues, stacks, linked lists and binary trees
+		-Apr, 2012: Studied C++ by myself as an extension of CSC192 course
+		-July, 2012: Joined Frosh website club and started on website development using html5, css3 and javascript for front end with php and mySql for back end
+		-Dec, 2012: Stepped into Android app development using the SDK provided by Google in Eclipse using Java
+	DONE: skills_summary:
+		Languages
+			-java: A language that I am mostly familiar with today, first started three years ago and familiar with Eclipse and jGrasp as the IDE.
+			-C/C++: Studied C language in 2012 and C++ by myself, most projects are algorithm-based for learning purpose instead of real applications. Used CodeBlocks as the IDE.
+			-Matlab: Studied in school for two semesters, is able to solve complicated computation problems.
+			-HTML5, CSS3, Javascript and PHP: Used for website development, mostly project-based learning experience.
+			-Python, Visual Basic and Turing: Languages that I have learned with relevant past experience yet I am not very familiar their syntax today.
+		Data structure:
+			-Familiar with different types of linked lists and their memory representation.
+			-Knowledge of stacks, queues, map????? set????? and binary trees with their implementations.
+		Algorithms:
+			-Familiar with common sorting algorithms like insertion, selection, heap sort, quick sort and merge sort.
+			-Knowledge of simple graph algorithms including breadth-first and depth-first traverse, Prim's algorithm and Kruskal's algorithm.
+		Object-oriented Programming:
+			-Mostly did in Java with a little bit in java.
+			-Familiar with common concepts like data abstraction, data encryption, inheritance, polymorphism and object-based type castings.
+		GUI (Graphic User Interface) development:
+			-In Java and Turing
+			-Used the Swing package for user interface layout and awt.event package to deal with user interations (i.e events). Also utilized multi-threading for devices like timers.
+		Database:
+			-Relevant experience in dealing with small-size mySql database for website development
+		Mobile app:
+			-Beginner in Android app mobile development using android SDK plug-in and ADT emulator in Eclipse. Started in Dec, 2012.
+
+ 	DONE: past_projects:
+		-connect of five
+		-game of 24
+		-one-to-one chat website
+		-research did for DEEP
+	DONE: left direction_bar
+		-intro
+		-timeline
+		-skills summary
+		-past_projects
+	
+4. hardware.html:
+	DONE: introduction + skills summary
+5. tt_life.html: 
+	DONE: introduction, best_results,
+	REQUIRE: photo gallary, youtube_video
+6. contact_me.html:
+	USE THE ONE FROM index.html
+
+7.GALLERY:
+
+FINALLY: USE EM/PX TO FORMAT ALL FONTS!!!!!!!!!!!!!!!
+
+THINGS TO CHECK:
+1. # and < operators in css: # is for id, .for class, < for child of an element
+2. difference between px and em: em depends on the user's browser size; px is absolute depending on the browser ==> 1 em is equal to the size of the CURRENT FONT
+3. alt property for pictures: alternative text if the image cannot be displayed
